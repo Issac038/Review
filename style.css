@@ -1,0 +1,104 @@
+/* === General Reset and Body Styling === */
+/* Prompt: Reset default margins and paddings. Use a clean, readable font and center content horizontally. */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* === Header Styling === */
+/* Prompt: Style header with a dark background, white text, and horizontal navigation links spaced evenly. Make it responsive. */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+/* === Hero Section Styling === */
+/* Prompt: Create a bright hero section with bold heading, supportive text, and a primary call-to-action button. Add some padding. */
+
+.hero {
+  background-color: #fef3c7;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* === Product Card Section === */
+/* Prompt: Style the product cards with a white background, drop shadow, image at top, and neatly spaced text. Use grid or flex. */
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin: 0.5rem 0;
+}
+
+.product-card button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* === Footer Styling === */
+/* Prompt: Create a simple footer with a light background and centered copyright */
+
+footer {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
